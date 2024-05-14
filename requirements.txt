@@ -1,0 +1,9 @@
+langchain
+langchain-google-genai
+easyocr
+os
+fastapi
+Pillow
+numpy 
+opencv-python-headless
+uvicorn
