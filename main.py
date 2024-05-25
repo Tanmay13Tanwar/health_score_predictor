@@ -13,7 +13,7 @@ from io import BytesIO
 from fastapi import FastAPI, File, UploadFile, HTTPException
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAZSP3AXxW8vmcalgAYmikudzSqT_IgWQk"
+os.environ["GOOGLE_API_KEY"] = "Google api key"
 llm = ChatGoogleGenerativeAI(model="gemini-pro")
 
 # Initialize EasyOCR reader
